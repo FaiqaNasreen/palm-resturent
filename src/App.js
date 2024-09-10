@@ -11,18 +11,19 @@ import OrderForm from "./Pages/Orderform/OrderForm";
 
 function App() {
   return (
-     <div>
-        <Navebar />
-        <Routes>
-          <Route  path="/" element= { <Home />}/>
-          <Route path="/Menue" element={<Menue />}/>
-          <Route path="/delivery" element={<Delivery />}/>
-          <Route path="/Aboutus" element={<Aboutus />}/>
-           <Route path="/ContactUs" element={<ContactUs />} />
-           <Route path="/OrderForm" element={<OrderForm />} />
-        </Routes>
-        <Footer />
-      </div>
+    <div>
+    <Navebar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/Menue" element={<Menue />} />
+      <Route path="/delivery" element={<Delivery />} />
+      <Route path="/Aboutus" element={<Aboutus />} />
+      <Route path="/ContactUs" element={<ContactUs />} />
+      <Route path="/OrderForm" element={<OrderForm />} />
+    </Routes>
+    <Footer />
+  </div>
+  
   );
 }
 

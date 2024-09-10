@@ -30,7 +30,7 @@ function Navebar() {
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
       <li onClick={handleClick}>
-      <NavLink className="nav-link" to="/">
+      <NavLink className="nav-link" to="/Home">
         Home
        </NavLink>
       </li>
