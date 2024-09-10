@@ -12,7 +12,7 @@ import OrderForm from "./Pages/Orderform/OrderForm";
 function App() {
   return (
     <div>
-    <Navebar />
+   <Navebar />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Menue" element={<Menue />} />
