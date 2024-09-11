@@ -25,17 +25,17 @@ function Navebar() {
     <div className = {color ? "header header-bg" : "header"} >
     <div className='container'>
     <div className='nav-bar'>
-    <Link to='./'>
+    <Link to='/'>
       <img src={logo} alt='logo' width={50} />
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
       <li onClick={handleClick}>
-      <NavLink className="nav-link" to="/Home">
+      <NavLink className="nav-link" to="/">
         Home
        </NavLink>
       </li>
       <li onClick={handleClick}>
-      <NavLink className='nav-link' to='./Menue'>Menu</NavLink>
+      <NavLink className='nav-link' to='./menue'>Menu</NavLink>
       </li>
       <li onClick={handleClick}>
       <NavLink className='nav-link' to='./delivery'>Delivery</NavLink>
