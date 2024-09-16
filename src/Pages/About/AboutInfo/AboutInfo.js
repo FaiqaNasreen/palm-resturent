@@ -9,7 +9,7 @@ const AboutInfo = ()  =>{
       <div>
         <div className='about-info-content'>
          <h2 className='heading-secondary'>
-            Some basic Information <span>About Faiqa resturent</span>
+            Some basic Information <span>About Palm & Pine Resturent</span>
          </h2>
           <h4>Let us  we introduse ourselves</h4>
           <p>

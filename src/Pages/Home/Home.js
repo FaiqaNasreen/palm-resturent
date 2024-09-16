@@ -4,7 +4,7 @@ import TestyMeal from './TestyMeal';
 import OurStaf from './OurStaf/OurStaf';
 //import Footer from '../../components/Footer/Footer';
 
-function Home() {
+const Home=()=> {
   return (
     <div>
       <Mainbody />
@@ -15,4 +15,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;

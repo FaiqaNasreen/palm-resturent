@@ -74,7 +74,7 @@ const TestyMeal = () => {
              and reliable service. We ensure that each dish is prepared with the freshest ingredients 
              and delivered to your table promptly, maintaining the highest standards of taste and presentation.
              <blockquote>
-              Email:faiqaresturant@gmail.com.<br/> contect us:+923453636.
+              Email:PalmPineresturant@gmail.com.<br/> contect us:+923453636.
             </blockquote>
           </div>
          </div>
